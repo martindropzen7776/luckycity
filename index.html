@@ -1,499 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-	<meta name="robots" content="noindex">
+<meta name="robots" content="noindex">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<meta property="og:image" content="logo.jpeg" />    <link rel="icon" type="image/jpeg" href="logo.jpeg"> 	<title>LuckyCity</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/banner.css">
-
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '784683126982932');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=784683126982932&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+    <meta property="og:image" content="logo.jpeg" />
+    <link rel="icon" type="image/jpeg" href="logo.jpeg">
+    <title>LuckyCity</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s) {
+            if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)
+        }(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '784683126982932');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=784683126982932&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
 
     <style>
-	
-	
-	@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
-	@import url("https://fonts.googleapis.com/css?family=Roboto Condensed:400");
-	@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-	@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&display=swap');
-	@import url('https://fonts.googleapis.com/css?family=Muli');
+        @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+        @import url('https://fonts.googleapis.com/css?family=Muli');
 
-
-		:root {
-		
-		--color-fondo: #1c7c54;--color-texto: #fff;		}
-
-        /* Estilos generales */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        :root {
+            --color-fondo: #1c7c54;
+            --color-texto: #fff;
         }
 
         body, html {
             height: 100%;
             font-family: Arial, sans-serif;
-			margin: 0px;
-            padding: 0px;
-			background-color: var(--color-fondo);
-			
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-fondo);
         }
 
-		a {
-			color:#fff;
-			text-decoration: none;
-		}
-		
-		a: {
-			color:#fff;
-			text-decoration: none;
-		}
-		
-        /* Contenedor principal */
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
         .containerTop {
-		
-			  background-image: url('img/sch1/bg.jpg'); 		
-         
+            background-image: url('img/sch1/bg.jpg');
             background-size: cover;
             background-position: top;
             display: flex;
-            justify-content: center;           
+            justify-content: center;
             text-align: center;
-           	color: var(--color-texto);
-			padding:0px;
-			margin:0px;			
+            color: var(--color-texto);
+            padding: 0;
+            margin: 0;
         }
 
-        /* Contenido */
         .content {
             max-width: 600px;
             justify-content: center;
-			margin:0px;
-			padding-top:30px;
-			
+            margin: 0;
+            padding-top: 30px;
         }
-		
-		 .contentLogo {
-			padding:0px 0px;
-		 }
-		 
 
-		 .contentLeyenda {	
+        .contentLogo {
+            padding: 0;
+        }
 
-			font-family: 'Roboto', sans-serif;		 
-			padding:20px 10px;
-			font-size:20px;
-			font-weight:400;
-			letter-spacing:-0.5px;
-		 }
+        .contentLeyenda {
+            font-family: 'Roboto', sans-serif;
+            padding: 20px 10px;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: -0.5px;
+        }
 
-		 
-		 .bono {
-			padding-top:20px;
-			padding-bottom:20px;
-			font-size:20px;
-			font-weight:400;
-			letter-spacing:0.5px
-			
-		 }
-		 .textpwsp {
-		 	padding-top:00px;
-			padding-bottom:20px;
-			font-size:15px;
-			font-weight:300;
-		 
-		 }
-		 .contentBoton {
-			padding:0px 0px;
-			text-align:center;
-		 }
-		 
-		 .loadWsp {
-			position:absolute;
-			border-radius: 20px;
-			display:none;	
-			margin:auto;
-			padding:20px;
-			width:80%;
-			
-			border:3px solid #51d4db;
-			background:#dcdcdc;
-			color: #53656f;
-			z-index:999;
+        .bono {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
 
-			-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-			-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-			box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);			 
-		 }
-		 
-		 .loadWsp a {
-			text-decoration: none;
-			color: #808080;
-			   pointer-events: none;
-		 }
-		 
-		 .loadWsp a:hover {
-			text-decoration: none;
-			color: #808080;
-			   pointer-events: none;
-		 }
-		 
-		 .loadWsp .info {
-		 	font-family: 'Roboto', sans-serif;		 
-			font-letter-spacing:-0.5px;
-			font-size:16px;
-			font-weight:400;
-			text-align:left;
-			text-align: justify;
-		 }
+        .contentBoton {
+            padding: 0;
+            text-align: center;
+        }
 
-		.conecting {
-			padding:10px;
-			text-align:center;
-			
-			margin:auto;
-		}
+        .btnwsp {
+            display: inline-block;
+            background-color: #51d4db; /* Color del botón */
+            color: #fff; /* Color del texto */
+            padding: 15px 30px; /* Tamaño del botón */
+            border-radius: 10px; /* Bordes redondeados */
+            font-size: 18px; /* Tamaño del texto */
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.2s;
+        }
 
-		.conectingTxt {	
-			margin:auto;
-		}
+        .btnwsp:hover {
+            background-color: #3fb6c0;
+            transform: translateY(-2px);
+        }
 
-		.conectingIcon {
-			padding-top:10px;
-			margin:auto;
-			text-align:center;
-		}
-		
-		
         .containerLista {
-			background-color: var(--color-fondo);
+            background-color: var(--color-fondo);
             display: flex;
-            justify-content: center;           
+            justify-content: center;
             text-align: center;
-           	color: var(--color-texto);
-			padding:0px;
-			margin:0px;	
-			padding-top:30px;
-			padding-bottom:10px;
-        }		 
-		
-		.containerItem img {
-			display: inline-block;
-			vertical-align: middle;		
-		}
-		.containerItem p {				
-				display: inline-block;
-				vertical-align: middle;
-				margin: 0;
-				font-family: 'Roboto', sans-serif;		 
-				padding:0px 0px;
-				font-size:18px;
-				font-weight:300;
-				padding-left:20px;
-				text-align:left;
-		}
-
-
-		 .containerAviso {
-			background-color: #000;
-           
-            justify-content: center;           
-            text-align: center;
-           	color: var(--color-texto);
-			padding:0px;
-			margin:0px;	
-			padding-top:30px;
-			padding-bottom:30px;
-
-        }	
-		
-		.containerAviso p {				
-				
-				vertical-align: middle;
-				margin: 0;
-				font-family: 'Roboto', sans-serif;		 
-				padding:0px 0px;
-				font-size:15px;
-				font-weight:300;
-				
-				text-align:center;
-		}
-
-        /* Estilos para pantallas pequeñas */
-        @media screen and (max-width: 600px) {
-            .container {
-             background-size: auto;
-            }
+            color: var(--color-texto);
+            padding: 30px 0 10px 0;
         }
-		
-		
-	.btnwsp {
-		background-color: transparent;
-		border:0px;
-		box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-		cursor: pointer;
-	}
 
+        .containerItem img {
+            display: inline-block;
+            vertical-align: middle;
+        }
 
-	@keyframes zoom {
-			0% {
-				transform: scale(1);
-			}
-			50% {
-				transform: scale(1.1);
-			}
-			100% {
-				transform: scale(1);
-		}
-	}	
-		
-	.c-loader {
-	text-align:center;
-	margin:auto;
-		animation: is-rotating 1s infinite;
-		border: 6px solid #e5e5e5;
-		border-radius: 50%;
-		border-top-color: #51d4db;
-		height: 40px;
-		width: 40px;
-	}
+        .containerItem p {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: 300;
+            padding-left: 20px;
+            text-align: left;
+        }
 
-	@keyframes is-rotating {
-		to {
-			transform: rotate(1turn);
-		}
-	}
-	
-	.leyenda p {
-		position: relative;
-		font-family: sans-serif;
-		text-transform: uppercase;
-		font-size: 1em;
-		letter-spacing: 0.5px;
-		overflow: hidden;
-		background: linear-gradient(90deg, #efefef, #fff, #efefef);
-		background-repeat: no-repeat;
-		background-size: 80%;
-		animation: animate 3s linear infinite;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: rgba(255, 255, 255, 0);
-	}
+        .containerAviso {
+            background-color: #000;
+            color: var(--color-texto);
+            padding: 30px 0;
+            text-align: center;
+        }
 
-	@keyframes animate {
-		0% {
-			background-position: -500%;
-		}
-		100% {
-			background-position: 500%;
-		}
-	}
-.contentBanner {
-  width:270px;
-  font-size:24px;
-  line-height:40px;
-  font-family:'Muli';
-  	 
-  color:#ecf0f1;
-  height:40px;
-  justify-content: center;
-  text-align:center;
- 
-  
-  
-   
-  &:before {
-   
-    display:inline;
-	float:left;
-    left:0px;
-    line-height:40px;
-  }
-  &:after {
-   
-	top:-40px;
-	position:relative;
-	float:right;
-    line-height:40px;
-  }
-  &:after, &:before {
-    color:#16a085;
-    font-size:42px;
-    animation:2s linear 0s normal none infinite opacity;
-    -webkit-animation:2s ease-out 0s normal none infinite opacity;
-    -moz-animation:2s ease-out 0s normal none infinite opacity;
-    -o-animation:2s ease-out 0s normal none infinite opacity;
-  }
-}
-
-.visible {
- 
-  font-weight:600;
-  letter-spacing:-0.5px;
-  overflow:hidden;
-  height:40px;   
-}
-
-.contentBanner p {
-  display:inline;
-  float:left;
-  margin:0;
-  padding-left:10px;
-
-}
-
-ul {
-  margin-top:0;
-  padding-left:30px;
-  text-align:left;
-  list-style:none;
-   margin-left:20px;
-  animation:6s linear 0s normal none infinite change;
-  -webkit-animation:6s linear 0s normal none infinite change;
-  -moz-animation:6s linear 0s normal none infinite change;
-  -o-animation:6s linear 0s normal none infinite change;
-}
-
-ul li {
-  line-height:40px;
-  margin:0;
-  margin-left:30px;
-  padding-left:20px;
-}
-
-@-webkit-keyframes opacity {
-  0%   {opacity:0;}
-  50%  {opacity:1;}
-  100% {opacity:0;}
-}
-@keyframes opacity {
-  0%   {opacity:0;}
-  50%  {opacity:1;}
-  100% {opacity:0;}
-}
-
-@-webkit-keyframes change {
-  0%   {margin-top:0;}
-  15%  {margin-top:0;}
-  25%  {margin-top:-40px;}
-  40%  {margin-top:-40px;}
-  50%  {margin-top:-80px;}
-  65%  {margin-top:-80px;}
-  75%  {margin-top:-40px;}
-  85%  {margin-top:-40px;}
-  100% {margin-top:0;}
-}
-@keyframes change {
-  0%   {margin-top:0;}
-  15%  {margin-top:0;}
-  25%  {margin-top:-40px;}
-  40%  {margin-top:-40px;}
-  50%  {margin-top:-80px;}
-  65%  {margin-top:-80px;}
-  75%  {margin-top:-40px;}
-  85%  {margin-top:-40px;}
-  100% {margin-top:0;}
-}
+        .containerAviso p {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            text-align: center;
+        }
     </style>
-	
 </head>
 
-
-	
-
-
 <body>
-
-	
-    <div class="containerTop">	
-		
+    <div class="containerTop">
         <div class="content">
-			
-			<div class="contentLogo">	
-				 <img src='logo.jpeg' width='140' height='140'>		
-				
-			</div>
-			<div class="contentTitulo">				<br><center>
-				<div class='contentBanner'>
-					<div class='visible'>
-							<p>
-								Juegos
-							</p>
-							<ul>
-								<li>Nuevos Slots</li>
-								<li>Tragamonedas</li>
-								<li>Ruletas</li>
-							</ul>
-					</div>
-				</div></center>
-			
-			</div>
-
-	<div class=bono>
-					<div id=leyenda class=leyenda>
-					<p><b>DUPLICAMOS TU PRIMERA CARGA!!</b></p>					</div>
-					<p>CARGA MINIMA <b>$1000</b></p>	
-					<p><br></p>
-				</div>
-			<div id=loadWsp class=loadWsp>
-					<div id=conecting class=conecting>
-						<div id=conectingTxt class=conectingTxt>
-							Conectando con WhatsApp ... 
-						</div>
-						<div id=conectingIcon class=conectingIcon>
-							<div class="c-loader"></div>
-						</div>
-					</div>
-
-
-				</div>
-
-			<div class="contentLeyenda">
-				<p>HACE CLIC EN EL BOTON PARA</P><P>CREAR TU USUARIO</p>
-
-			</div>
-		<div id = "contentBoton" class="contentBoton">	
-				<button  rel='nofollow noreferrer' role='link' id='botónEnviarSolicitud' class=btnwsp><img src='boton.png' class=imgboton width='80%' height='80%' border=0></button>			</div>
-
-			
+            <div class="contentLogo">
+                <img src='logo.jpeg' width='140' height='140'>
+            </div>
+            <div class="contentTitulo">
+                <br>
+                <center>
+                    <div class='contentBanner'>
+                        <div class='visible'>
+                            <p>Juegos</p>
+                            <ul>
+                                <li>Nuevos Slots</li>
+                                <li>Tragamonedas</li>
+                                <li>Ruletas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </center>
+            </div>
+            <div class="bono">
+                <div id="leyenda" class="leyenda">
+                    <p><b>DUPLICAMOS TU PRIMERA CARGA!!</b></p>
+                </div>
+                <p>CARGA MÍNIMA <b>$1000</b></p>
+                <p><br></p>
+            </div>
+            <div class="contentLeyenda">
+                <p>HAZ CLIC EN EL BOTÓN PARA</P><P>CREAR TU USUARIO</p>
+            </div>
+            <div id="contentBoton" class="contentBoton">
+                <a href="https://www.tu-enlace.com" rel="nofollow noreferrer" id="botónEnviarSolicitud" class="btnwsp">
+                    Crear Usuario
+                </a>
+            </div>
         </div>
     </div>
-	<div class="containerLista">	
-	 
-			<div class="containerItem">
-				 <img src='ic1.png'  width='70px' height='70px'>	
-				<p>Todos los medios de pago!.</p>
-			</div>
-	</div>
-	<div class="containerLista">	
-			<div class="containerItem">
-				 <img src='ic2.png'  width='70px' height='70px'>	
-				<p>Estamos cargando las 24hs<br>todos los días</p>
-			</div>
-	 </div>
-	
-	 <div class="containerAviso">	
-		<p>Jugar compulsivamente es perjudicial para la salud. <br> </p>
-		<p>Prohibido el juego de azar a menores de 18 años.</p>
-	 </div>	
-	
+    <div class="containerLista">
+        <div class="containerItem">
+            <img src='ic1.png' width='70px' height='70px'>
+            <p>Todos los medios de pago!</p>
+        </div>
+    </div>
+    <div class="containerLista">
+        <div class="containerItem">
+            <img src='ic2.png' width='70px' height='70px'>
+            <p>Estamos cargando las 24hs<br>todos los días</p>
+        </div>
+    </div>
+    <div class="containerAviso">
+        <p>Jugar compulsivamente es perjudicial para la salud.<br></p>
+        <p>Prohibido el juego de azar a menores de 18 años.</p>
+    </div>
 </body>
 </html>
