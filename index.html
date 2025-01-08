@@ -9,26 +9,6 @@
     <link rel="icon" type="image/jpeg" href="logo.jpeg">
     <title>LuckyCity</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <!-- Meta Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s) {
-            if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)
-        }(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '784683126982932');
-        fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=784683126982932&ev=PageView&noscript=1"/>
-    </noscript>
-    <!-- End Meta Pixel Code -->
 
     <style>
         @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
@@ -148,6 +128,50 @@
             }
             100% {
                 background-position: 500%;
+            }
+        }
+
+        /* UL Animations */
+        .visible ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            animation: change 6s linear infinite;
+        }
+
+        .visible ul li {
+            line-height: 40px;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        @keyframes change {
+            0% {
+                margin-top: 0;
+            }
+            15% {
+                margin-top: 0;
+            }
+            25% {
+                margin-top: -40px;
+            }
+            40% {
+                margin-top: -40px;
+            }
+            50% {
+                margin-top: -80px;
+            }
+            65% {
+                margin-top: -80px;
+            }
+            75% {
+                margin-top: -40px;
+            }
+            85% {
+                margin-top: -40px;
+            }
+            100% {
+                margin-top: 0;
             }
         }
 
